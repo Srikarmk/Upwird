@@ -1,9 +1,13 @@
+import {Route,Routes} from "react-router-dom"
+import Landing from "./Components/Landing/Landing"
 function App() {
   
 
   return (
     <>
-      <p>Upwird</p>
+     <Routes>
+      <Route path="/" element={<Landing/>}></Route>
+     </Routes>
     </>
   )
 }
