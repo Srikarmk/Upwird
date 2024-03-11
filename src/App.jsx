@@ -1,5 +1,6 @@
 import {Route,Routes} from "react-router-dom"
 import Landing from "./Components/Landing/Landing"
+import ComingSoon from "./Components/Landing/ComingSoon"
 function App() {
   
 
@@ -7,6 +8,7 @@ function App() {
     <>
      <Routes>
       <Route path="/" element={<Landing/>}></Route>
+      <Route path="/comingsoon" element={<ComingSoon/>}></Route>
      </Routes>
     </>
   )
